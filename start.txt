@@ -1,0 +1,15 @@
+Start
+Wed Dec 14 17:09:49 UTC 2022
+    return fib(n-2) + fib(n-1)
+
+n = 25
+print("fib(", n, ")= ", fib(n))
+	printf("hello world\n");
+	return 0;
+}
+
+console.log("hello");
+
+- Run python:
+
+  python3 bench.py
