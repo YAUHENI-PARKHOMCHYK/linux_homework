@@ -1,8 +1,9 @@
-   0 mkdir -p /home/animals/dogs /home/animals/cats /home/animals/fish /home/humans && touch /home/animals/dogs/pluto.txt /home/animals/cats/garfield.txt /home/animals/fish/nemo.txt /tmp/adam.txt /tmp/evA.txt
-   1 cp /tmp/adam.txt /home/humans/adam.txt
-   2 mv /tmp/evA.txt /opt/eve.txt
-   3 mv /opt/eve.txt /home/humans/eve.txt
-   4 cd /home/humans/
-   5 ls
-   6 history
-   7 history > history.txt
+   0 touch /home/newfile.txt
+   1 date >> /home/newfile.txt 
+   2 df -h /root >> /home/newfile.txt 
+   3 history | tail -5 >>/home/newfile.txt 
+   4 cat /proc/cpuinfo | grep -w vendor_id >> /home/newfile.txt 
+   5 nano /home/newfile.txt 
+   6 ps -ef | wc -l >> /home/newfile.txt 
+   7 export_file /home/newfile.txt 
+   8 history >> /home/history.txt
