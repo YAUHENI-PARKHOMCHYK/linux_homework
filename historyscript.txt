@@ -1,0 +1,6 @@
+   0 cd /tmp/
+   1 export USER=yauheni
+   2 nano myfirstbashscript.sh
+   3 chmod 744 myfirstbashscript.sh 
+   4 ./myfirstbashscript.sh 
+   5 history >> historyscript.txt
