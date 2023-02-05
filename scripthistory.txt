@@ -1,0 +1,7 @@
+   0 nano fullscript.sh
+   1 export_file fullscript.sh 
+   2 chmod 744 fullscript.sh 
+   3 cp /root/fullscript.sh /bin/
+   4 fullscript.sh 
+   5 cat /opt/mydate/newmydate.txt 
+   6 history >> scripthistory.txt
